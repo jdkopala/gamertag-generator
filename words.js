@@ -233,8 +233,7 @@ const nouns = [
   "Advertisement",
   "Grass",
   "Parrot",
-  "Afternoon",
-  "Greece",	
+  "Afternoon",	
   "Pencil",
   "Airport",
   "Guitar",	
@@ -314,7 +313,6 @@ const nouns = [
   "Lawyer",	
   "Sugar",
   "Leather",	
-  "Sweden",
   "Death",
   "Library",
   "Teacher",
@@ -368,11 +366,9 @@ const nouns = [
   "Family",
   "Needle",
   "Wire",
-  "Finland",
   "Nest",
   "Xylophone",
   "Fish",
-  "Nigeria",
   "Yacht",
   "Flag",
   "Night",
@@ -389,7 +385,6 @@ const nouns = [
   "Fountain",
   "Orange",
   "Gas",
-  "France",
   "Oxygen",
   "Girl",
   "Furniture",
@@ -410,4 +405,4 @@ const generateGamertag = (num) => {
   };
 };
 
-generateGamertag(1000);
+generateGamertag();

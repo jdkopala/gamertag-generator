@@ -395,14 +395,17 @@ const nouns = [
 ]
 
 const generateGamertag = (num) => {
+  let gamertags = [];
   if (!num){
     num = 1;
   };
   for (let i = 0; i < num; i++) {
     let adj = adjectives[Math.floor(Math.random() * adjectives.length)];
     let noun = nouns[Math.floor(Math.random() * nouns.length)];
-    console.log(`${adj}${noun}`)
+    let tag = `${adj}${noun}`;
+    console.log(tag);
+    gamertags.push(tag);
   };
 };
 
-generateGamertag();
+module.exports = { generateGamertag }

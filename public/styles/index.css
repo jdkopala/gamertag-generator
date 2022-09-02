@@ -1,0 +1,8 @@
+body {
+  background-color: darkslategray;
+}
+
+nav {
+  position: fixed;
+  background-color: green;
+}

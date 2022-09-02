@@ -403,7 +403,6 @@ const generateGamertags = (num) => {
     let adj = adjectives[Math.floor(Math.random() * adjectives.length)];
     let noun = nouns[Math.floor(Math.random() * nouns.length)];
     let tag = `${adj}${noun}`;
-    console.log(tag);
     gamertags.push(tag);
   };
   return gamertags;

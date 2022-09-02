@@ -17,13 +17,30 @@ body {
 }
 
 .generator-container {
+  color: white;
   margin-top: 220px;
   display: flex;
+  flex-direction: column;
   border-bottom: 2px solid #6e6e68;
   align-items: center;
   justify-content: center;
 }
 
+div.btn-group {
+  padding: 10px;
+}
+
+.button-container {
+  padding: 15px;
+}
+
+div.results-container {
+  display: flex;
+  justify-content: center;
+}
+
 .table {
   color: white;
+  width: 60%;
+  text-align: center;
 }

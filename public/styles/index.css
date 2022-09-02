@@ -4,11 +4,26 @@ body {
 
 #top-of-page {
   display: flex;
-  flex-direction: column;
-  height: 400px;
-  width: 100%;
-  background-color: #cd7b29;
-  justify-content: center;
+  color: white;
+  border-bottom: 2px solid #6e6e68;
+  background-color: darkslategrey;
   align-items: center;
-  z-index: 9;
+  justify-content: space-between;
+  height: 200px;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 1;
+}
+
+.generator-container {
+  margin-top: 220px;
+  display: flex;
+  border-bottom: 2px solid #6e6e68;
+  align-items: center;
+  justify-content: center;
+}
+
+.table {
+  color: white;
 }

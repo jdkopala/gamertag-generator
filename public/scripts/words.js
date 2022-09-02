@@ -131,7 +131,7 @@ const adjectives = [
   "Jealous",
   "Jittery",
   "Jolly",
-  "Joyos",
+  "Joyous",
   "Kind",
   "Lazy",
   "Light",

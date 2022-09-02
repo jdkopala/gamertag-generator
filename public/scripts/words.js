@@ -408,5 +408,3 @@ const generateGamertags = (num) => {
   };
   return gamertags;
 };
-
-module.exports = { generateGamertags }

@@ -9,11 +9,12 @@ app.set('view engine', 'ejs');
 // Middleware
 
 app.use(morgan("common"));
+app.use(express.static("public"));
 
 // Routes
 
 app.get("/", (req, res) => {
-  res.render("home.ejs")
+  res.render("index.ejs")
 })
 
 app.listen(PORT, () => {

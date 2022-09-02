@@ -4,11 +4,12 @@ body {
 
 #top-of-page {
   display: flex;
+  flex-direction: column;
   color: white;
   border-bottom: 2px solid #6e6e68;
   background-color: darkslategrey;
   align-items: center;
-  justify-content: space-between;
+  align-content: center;
   height: 200px;
   position: fixed;
   top: 0;

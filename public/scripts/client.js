@@ -1,9 +1,10 @@
 $(document).ready(() => {
   
-});
-
-const $generateButton = $('.btn btn-primary');
-
-$($generateButton).on('click', function() {
-    console.log("CLICK.")
+  const $generateButton = $('#generate');
+  
+  $($generateButton).on('click', function() {
+    let gamertags = generateGamertags(10);
+    createGamertagElements(gamertags);
   })
+
+});

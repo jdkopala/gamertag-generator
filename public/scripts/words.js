@@ -408,3 +408,15 @@ const generateGamertags = (num) => {
   };
   return gamertags;
 };
+
+const createGamertagElements = (gamertags) => {
+  $('.gamertag-table-body').empty();
+  for (let g of gamertags) {
+    $('.gamertag-table-body').append(`
+    <tr>
+      <th scope="row">${gamertags.indexOf(g) + 1}</th>
+      <td>${g}</td>
+    </tr>
+    `)
+  }
+};

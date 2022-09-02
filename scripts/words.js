@@ -394,7 +394,7 @@ const nouns = [
   "Ghost",
 ]
 
-const generateGamertag = (num) => {
+const generateGamertags = (num) => {
   let gamertags = [];
   if (!num){
     num = 1;
@@ -406,6 +406,7 @@ const generateGamertag = (num) => {
     console.log(tag);
     gamertags.push(tag);
   };
+  return gamertags;
 };
 
-module.exports = { generateGamertag }
+module.exports = { generateGamertags }

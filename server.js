@@ -2,7 +2,7 @@ const express = require('express');
 const morgan = require('morgan');
 const app = express();
 const { restart } = require('nodemon');
-const { generateGamertag } = require('./words');
+const { generateGamertags } = require('./scripts/words');
 const PORT = 8080;
 
 app.set('view engine', 'ejs');
@@ -11,7 +11,7 @@ app.set('view engine', 'ejs');
 
 app.use(morgan("common"));
 
-//
+// Routes
 
 app.get("/", (req, res) => {
   res.render("home.ejs")

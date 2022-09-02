@@ -17,48 +17,48 @@
     <script type="text/javascript" src="/scripts/words.js"></script>
     <script type="text/javascript" src="/scripts/client.js"></script>
   </head>
+  <nav id="top-of-page">
+    <div>
+      <h1>Gamertag Generator!</h1>
+    </div>
+    <div>
+      <p>Want a brand new handle for your Steam/EGS/Xbox/Playstation account? Choose how many results you want below, and try a few on! Regenerate as many times as you'd like.</p>
+    </div>
+    <div class="generator-container">
+      <p>How many options would you like to see?</p>
+      <div class="btn-group" role="group">
+        <div class="form-check form-check-inline">
+          <input class="form-check-input" value="5" type="radio" name="flexRadioDefault" checked="checked" id="flexRadioDefault2">
+          <label class="form-check-label" for="flexRadioDefault2">
+            5
+          </label>
+        </div>
+        <div class="form-check form-check-inline">
+          <input class="form-check-input" value="10" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+          <label class="form-check-label" for="flexRadioDefault1">
+            10
+          </label>
+        </div>
+        <div class="form-check form-check-inline">
+          <input class="form-check-input" value="25" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+          <label class="form-check-label" for="flexRadioDefault1">
+            25
+          </label>
+        </div>
+        <div class="form-check form-check-inline">
+          <input class="form-check-input" value="50" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+          <label class="form-check-label" for="flexRadioDefault1">
+            50
+          </label>
+        </div>
+      </div>
+      <!-- <div class="button-container"> -->
+        <button type="button" id="generate" class="btn btn-primary">Generate!</button>
+      <!-- </div> -->
+    </div>
+  </nav>
 
   <main>
-    <nav>
-      <div class="top-of-page">
-        <h1>Gamertag Generator!</h1>
-        <p>Want a brand new handle for your Steam/EGS/Xbox/Playstation account? Choose how many results you want below, and try a few on! Regenerate as many times as you'd like.</p>
-      </div>
-
-      <div class="generator-container">
-        <p>How many options would you like to see?</p>
-        <div class="btn-group" role="group">
-          <div class="form-check form-check-inline">
-            <input class="form-check-input" value="5" type="radio" name="flexRadioDefault" checked="checked" id="flexRadioDefault2">
-            <label class="form-check-label" for="flexRadioDefault2">
-              5
-            </label>
-          </div>
-          <div class="form-check form-check-inline">
-            <input class="form-check-input" value="10" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
-            <label class="form-check-label" for="flexRadioDefault1">
-              10
-            </label>
-          </div>
-          <div class="form-check form-check-inline">
-            <input class="form-check-input" value="25" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
-            <label class="form-check-label" for="flexRadioDefault1">
-              25
-            </label>
-          </div>
-          <div class="form-check form-check-inline">
-            <input class="form-check-input" value="50" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
-            <label class="form-check-label" for="flexRadioDefault1">
-              50
-            </label>
-          </div>
-        </div>
-        <!-- <div class="button-container"> -->
-          <button type="button" id="generate" class="btn btn-primary">Generate!</button>
-        <!-- </div> -->
-      </div>
-    </nav>
-
     <body>
       <div class="results-container">
         <table class="table">
@@ -73,5 +73,6 @@
         </table>
       </div>
     </body>
+
   </main>
 </html>

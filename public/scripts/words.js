@@ -413,9 +413,10 @@ const createGamertagElements = (gamertags) => {
   for (let g of gamertags) {
     $('.gamertag-table-body').append(`
     <tr>
-      <th scope="row">${gamertags.indexOf(g) + 1}</th>
+      
       <td>${g}</td>
     </tr>
     `)
   }
+  // <th scope="row">${gamertags.indexOf(g) + 1}</th> // Add this back to line 416 to get the count in the table
 };
